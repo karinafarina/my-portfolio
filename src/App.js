@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
+import Header from './components/Header'
+
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container header">
-          <ul className="nav">
-            <li>Home</li>
-            <li>My Work</li>
-            <li>Contact</li>
-          </ul>
-        </div>
+
+        <Header />
+
         <section class="main">
 
         </section>

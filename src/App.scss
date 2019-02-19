@@ -18,11 +18,13 @@ a {
   height: 15vh;
   display: flex;
   justify-content: flex-end;
+  background-color: rgba(191, 199, 140, 0.61);
 }
 
 .nav {
   width: 30vw;
   align-items: center;
+  justify-content: space-evenly;
   li {
     list-style: none;
   };
