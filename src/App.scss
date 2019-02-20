@@ -14,11 +14,13 @@ a {
   text-decoration: none;
 }
 
+//HEADER
 .header {
-  height: 15vh;
+  height: 12vh;
   display: flex;
   justify-content: flex-end;
-  background-color: rgba(191, 199, 140, 0.61);
+  background-color: rgba(157, 207, 210, 0.61);
+  color: #fff;
 }
 
 .nav {
@@ -29,6 +31,22 @@ a {
     list-style: none;
   };
 }
+
+//MAIN
 .main {
-  background-color: rgb(231, 218, 207)
+  display: grid;
+  .clouds {
+    height: 88vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: .5;
+    z-index: -1;
+    position: fixed;
+   }
+  .text-left {
+    z-index: 2;
+    position: fixed;
+    color: rgb(11, 55, 103);
+    text-align: center;
+  }
 }
