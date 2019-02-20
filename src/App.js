@@ -10,9 +10,7 @@ class App extends Component {
 
         <Header />
 
-        <section class="main">
-
-        </section>
+        <Main />
         <section class="my-work">
 
         </section>
