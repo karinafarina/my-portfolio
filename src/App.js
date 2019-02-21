@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Showcase from './components/Showcase';
 
 import './App.scss';
 
@@ -12,9 +13,8 @@ class App extends Component {
         <Header />
 
         <Main />
-        <section class="my-work">
 
-        </section>
+        <Showcase />
         <section class="contact">
 
         </section>
