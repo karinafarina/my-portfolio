@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import clouds from '../images/clouds.ogv';
+
 import me from '../images/me.png';
 
 class Main extends Component {
@@ -14,14 +14,12 @@ class Main extends Component {
   //     vid.playbackRate = .1;
   //   }
   // },
-  
+
 
   render() {
     return (
       <div className="main">
-        <video className="clouds" id="clouds" loop autoPlay muted >
-          <source src={clouds} type='video/ogg' />
-        </video>
+
         <div className="grid-item left">
           "When you change the way you look at things, the things you look at change" Wayne Dyer
         </div>
@@ -30,7 +28,7 @@ class Main extends Component {
         </div>
 
         <div className="grid-item right">
-          This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, blanditiis, autem optio eveniet numquam obcaecati voluptatum ab illo, facere, magnam nam excepturi labore. Temporibus itaque aspernatur deleniti maxime voluptate fugiat!
+          I am a React Developer with experience with HTML5, CSS3, Javascript, React.js, jQuery, SCSS/SASS, Bootstrap 3 & 4, CSS Grid, FlexBox, Git, The Command Line, Docker and much more.
         </div>
         <div className="grid-item bottom">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sed ut facilis enim necessitatibus quas,
