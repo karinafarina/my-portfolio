@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+//import ReactContactForm from 'react-mail-form';
 
 class Contact extends Component {
 
   render() {
     return (
       <div className="contact">
-        <form action="">Form</form>
+        <form action="mailto:karinagaulin@gmail.com"></form>
       </div>
     );
   }

@@ -4,6 +4,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
+        <div className="my-brand">Portfolio</div>
         <ul className="nav">
           <li>Home</li>
           <li>My Work</li>

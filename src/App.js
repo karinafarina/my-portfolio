@@ -3,7 +3,7 @@ import clouds from './images/clouds.ogv';
 import Header from './components/Header';
 import Main from './components/Main';
 import Showcase from './components/Showcase';
-import Contact from './components/Contact';
+//import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 
@@ -22,8 +22,6 @@ class App extends Component {
         <Main />
 
         <Showcase />
-
-        <Contact />
 
         <Footer />
       </div>
