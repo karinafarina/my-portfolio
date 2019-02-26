@@ -4,11 +4,10 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="my-brand">Portfolio</div>
+        <div className="my-brand">Karina Gaulin</div>
         <ul className="nav">
-          <li>Home</li>
-          <li>My Work</li>
-          <li>Contact</li>
+          <li><a href="#" className="home"></a>Home</li>
+          <li><a href="mailto:karinagaulin@gmail.com">Connect</a></li>
         </ul>
       </div>
       );

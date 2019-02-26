@@ -25,6 +25,10 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
+  &:hover {
+    color: rgb(144, 144, 159);
+  }
 }
 
 .clouds {
@@ -64,10 +68,8 @@ a {
 //MAIN
 .main {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 25% 50% 25%;
-  //grid-gap: 10px;
-  //padding: 0 20px;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  align-items: start;
   height: 92vh;
   font-family:serif;
   font-style: italic;
@@ -75,8 +77,6 @@ a {
   color: $color-text-main;
 
   .grid-item {
-    //align-items: center;
-    //justify-content: center;
     text-align: center;
     padding: 0 20px;
     color: $color-text-main;
@@ -89,7 +89,6 @@ a {
 
   .my-image {
     grid-area: 2 / 2 / 3 / 3;
-    margin-top: -63px;
 
     .me {
       width: 50%;
@@ -103,24 +102,43 @@ a {
   .bottom {
     grid-area: 3 / 2 / 4 / 3;
   }
+  @media only screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    .grid-item {
+      margin: 30px;
+    }
+    .my-image {
+      width: 50%;
+    }
+  }
 }
 
 //SHOWCASE
 .showcase {
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
   color: $color-text-main;
   font-family: $font-futura;
+  background-color: rgba(171, 181, 203, 0.8);
 
   .title {
     width: 100%;
-    background-color: $color-text-secondary;
+    background-color: $color-background-3;
+    color: $color-text-secondary;
 
   }
   .projects {
-    margin-top: 50px;
+    height: 245px;
+    margin:auto auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 250px;
     grid-gap: 30px;
     z-index: 3;
     width: 100%;
@@ -151,11 +169,13 @@ a {
 
     }
   }
-}
-
-//CONTACT FORM
-.contact {
-  height: 300px;
+  @media only screen and (max-width: 768px) {
+    height: auto;
+    .projects {
+      grid-template-columns: 100%;
+      height: auto;
+    }
+  }
 }
 
 //FOOTER
@@ -163,29 +183,32 @@ a {
   height: 8vh;
   background-color: $color-background-3;
   color: #fff;
-  border-top: 1px solid #fff;
   display: flex;
   justify-content: space-between;
   padding-left: 15px;
 
   .copyright {
     align-self: center;
-
   }
 
   .social-media {
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
     > div {
       width: 10%;
+      border-radius: 3px;
     }
-      svg {
-        width: 50%;
-        background-color: #fff;
-      }
-
+    svg {
+      width: 40%;
+      background-color: #fff;
+      border-radius: 3px;
     }
+  }
+  @media only screen and (max-width: 1200px) {
+    .copyright {
+      flex-grow: 3;
+    }
+  }
 }

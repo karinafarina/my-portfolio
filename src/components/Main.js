@@ -28,10 +28,11 @@ class Main extends Component {
         </div>
 
         <div className="grid-item right">
-          As a Web Developer on the Dom&Tom Team, I contributed to several projects including Marriott, Rise and Dine, Turner, and Crazy Enough to Work.
+          I am a React Developer with experience with HTML5, CSS3, Javascript, React.js, jQuery, SCSS/SASS, Bootstrap 3 & 4, CSS Grid, FlexBox, Git, The Command Line, Docker and much more.
+
         </div>
         <div className="grid-item bottom">
-          I am a React Developer with experience with HTML5, CSS3, Javascript, React.js, jQuery, SCSS/SASS, Bootstrap 3 & 4, CSS Grid, FlexBox, Git, The Command Line, Docker and much more.
+          As a Web Developer on the Dom&Tom Team, I contributed to several projects including "Marriott, Rise and Dine", "Turner", and "Crazy Enough to Work".
         </div>
 
       </div>
