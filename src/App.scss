@@ -130,16 +130,19 @@ a {
     }
   }
   @media only screen and (max-width: 990px) {
+    .grid-item {
+      padding: 20px;
+    }
     .my-image-2 {
       .me {
-        width: 45%;
+        width: 35%;
       }
     }
   }
   @media only screen and (max-width: 400px) {
     .my-image-2 {
       .me {
-        width: 100%;
+        width: 55%;
       }
     }
   }
@@ -156,8 +159,10 @@ a {
   background-color: rgba(171, 181, 203, 1);
   @media only screen and (max-width: 1200px) {
     height: 400px;
+    .title {
+      font-size: 20px;
+    }
   }
-
   @media only screen and (max-width: 990px) {
     height: auto;
   }
@@ -166,17 +171,14 @@ a {
     width: 100%;
     background-color: $color-background-3;
     color: $color-text-secondary;
-    @media only screen and (max-width: 1200px) {
-      font-size: 20px;
-    }
   }
   .projects {
     width: 90%;
     margin:auto auto;
     display: grid;
-    grid-template-rows: minmax(200px, min-content);
+    grid-template-rows: minmax(200px, max-content);
     ///grid-template-columns: repeat(auto-fill, 100px);
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     grid-auto-rows: 200px;
     grid-gap: 30px;
     z-index: 3;
@@ -184,6 +186,10 @@ a {
     @media only screen and (max-width: 990px) {
       width: 65%;
       padding: 30px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      width: 80%;
     }
 
     img {
