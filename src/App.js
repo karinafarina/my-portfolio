@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import clouds from './images/clouds.ogv';
+import clouds from './images/clouds2.ogv';
 import Header from './components/Header';
 import Main from './components/Main';
 import Showcase from './components/Showcase';

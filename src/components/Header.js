@@ -6,7 +6,8 @@ class Header extends Component {
       <div className="header">
         <div className="my-brand">Karina Gaulin</div>
         <ul className="nav">
-          <li><a href="#" className="home"></a>Home</li>
+          <li>Home</li>
+          <li className="resume">Resume</li>
           <li><a href="mailto:karinagaulin@gmail.com">Connect</a></li>
         </ul>
       </div>
