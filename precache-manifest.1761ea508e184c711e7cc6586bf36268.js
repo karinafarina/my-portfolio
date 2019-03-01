@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ada8ec26695c3fb965bcdfa53a002058",
-    "url": "/my-portfolio/static/media/breastfeeding.ada8ec26.png"
+    "revision": "1372084de157d0251fd61b9f3052c1be",
+    "url": "/my-portfolio/static/media/omnifood.1372084d.png"
   },
   {
-    "revision": "e97ae92304db0308f5bd",
+    "revision": "c49edab7e05a445bcf65",
     "url": "/my-portfolio/static/css/main.262f574c.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/astronomy.d5164e14.png"
   },
   {
-    "revision": "e97ae92304db0308f5bd",
-    "url": "/my-portfolio/static/js/main.e97ae923.chunk.js"
+    "revision": "c49edab7e05a445bcf65",
+    "url": "/my-portfolio/static/js/main.c49edab7.chunk.js"
   },
   {
     "revision": "cb4536b5974876c2a290a8a4dee16ac0",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Gmail.8de2881e.svg"
   },
   {
-    "revision": "1834a3a81a8fae8b55e1c310d6f4471f",
+    "revision": "c695907add371873ec03afab5e857836",
     "url": "/my-portfolio/index.html"
   }
 ];
