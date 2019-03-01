@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://karinafarina.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "history": "^4.7.2",
@@ -12,12 +13,12 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,6 +31,5 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
-  },
-  "homepage": "http://karinafarina.github.io/my-portfolio"
+  }
 }
