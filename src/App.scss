@@ -80,7 +80,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
   align-items: start;
   height: 92vh;
-  font-family:serif;
+  font-family: Oswald;
   font-style: italic;
   font-size: 26px;
   color: $color-text-main;
@@ -177,7 +177,6 @@ a {
     margin:auto auto;
     display: grid;
     grid-template-rows: minmax(200px, max-content);
-    ///grid-template-columns: repeat(auto-fill, 100px);
     grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     grid-auto-rows: 200px;
     grid-gap: 30px;
@@ -196,14 +195,11 @@ a {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 4px;
     }
 
     .project {
       justify-content: center;
       align-items: center;
-      border: 1px solid $color-text-main;
-      border-radius: 4px;
       height: 100%;
     }
   }

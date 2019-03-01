@@ -3,6 +3,7 @@ import Astronomy from "../images/astronomy.png";
 import Omnifood from "../images/omnifood.png";
 import Nexter from "../images/nexter.png";
 import Trillo from "../images/trillo.png";
+import Breatfeeding from "../images/breastfeeding.png"
 //import { Link } from 'react-router';
 
 class Showcase extends Component {
@@ -23,7 +24,7 @@ class Showcase extends Component {
             </a>
           </div>
           <div className="project project-3">
-            <img src={Astronomy} alt="Astronomy Aleworks"/>
+            <a href="https://karinafarina.github.io/Breastfeeding-Quiz/"><img src={Breatfeeding} alt="Woman breastfeeding"/></a>
           </div>
           <div className="project project-4">
             <a href="https://karinafarina.github.io/Flexbox/">
