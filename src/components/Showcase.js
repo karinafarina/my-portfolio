@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Astronomy from "../images/astronomy.png";
-import Breastfeeding from "../images/breastfeeding.png";
+import Omnifood from "../images/omnifood.png";
 import Nexter from "../images/nexter.png";
 import Trillo from "../images/trillo.png";
 //import { Link } from 'react-router';
@@ -18,8 +18,8 @@ class Showcase extends Component {
             </a>
           </div>
           <div className="project project-2">
-            <a href="https://karinafarina.github.io/Breastfeeding-Quiz/" className="breastfeeding">
-              <img src={Breastfeeding} alt="Woman breastfeeding"/>
+            <a href="https://karinafarina.github.io/Omnifood/" className="Omnifood">
+              <img src={Omnifood} alt="Omnifood"/>
             </a>
           </div>
           <div className="project project-3">
