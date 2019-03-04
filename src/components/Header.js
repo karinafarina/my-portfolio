@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Resume from '../images/my-resume.pdf';
-import DownloadLink from "react-download-link";
+
+
 
 class Header extends Component {
   render() {
@@ -10,13 +10,7 @@ class Header extends Component {
         <ul className="nav">
           <li>Home</li>
           <li className="resume">
-            <DownloadLink
-              filename="my-resume.pdf"
-              exportFile={() => "My cached data"}
-              label="Resume"
-            >
-              Save to Disk
-            </DownloadLink>
+            <a href="https://www.resume.com/share/karinagaulin" download>Resume</a>
           </li>
           <li><a href="mailto:karinagaulin@gmail.com">Connect</a></li>
         </ul>
