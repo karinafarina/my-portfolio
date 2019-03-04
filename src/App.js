@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import clouds from './images/clouds2.ogv';
+import Clouds from './images/clouds2.ogv';
+import Cloudsmp4 from './images/clouds.mp4';
+import Cloudswebm from './images/clouds.webm';
+import CloudsImage from './images/cloudsImage.jpg';
 import Header from './components/Header';
 import Main from './components/Main';
 import Showcase from './components/Showcase';
@@ -14,8 +17,10 @@ class App extends Component {
     return (
       <div className="App">
 
-      <video className="clouds" id="clouds" loop autoPlay muted >
-        <source src={clouds} type='video/ogg' />
+      <video className="clouds" id="clouds" loop autoPlay muted poster={CloudsImage}>
+        <source src={Clouds} type='video/ogg' />
+        <source src={Cloudsmp4} type='video/mp4'/>
+        <source src={Cloudswebm} type='video/webm'/>
       </video>
         <Header />
 

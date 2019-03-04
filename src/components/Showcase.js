@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Astronomy from "../images/astronomy.png";
 import Omnifood from "../images/omnifood.png";
 import Nexter from "../images/nexter.png";
 import Trillo from "../images/trillo.png";
@@ -11,7 +10,7 @@ class Showcase extends Component {
   render() {
     return (
       <div className="showcase">
-        <h1 className="title text-center py-4">My Work</h1>
+        <h1 className="title text-center py-3">My Work</h1>
         <div className="projects">
           <div className="project project-1">
             <a href="https://karinafarina.github.io/MyNextor/" alt="Nexter">
