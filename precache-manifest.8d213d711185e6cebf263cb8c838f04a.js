@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/cloudsImage.bde83d68.jpg"
   },
   {
-    "revision": "2c1e005d29c4d9b053bb",
+    "revision": "8bd6deb3b81f0a8aa44a",
     "url": "/my-portfolio/static/css/main.e32e432f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/clouds.36e247bf.webm"
   },
   {
-    "revision": "2c1e005d29c4d9b053bb",
-    "url": "/my-portfolio/static/js/main.2c1e005d.chunk.js"
+    "revision": "8bd6deb3b81f0a8aa44a",
+    "url": "/my-portfolio/static/js/main.8bd6deb3.chunk.js"
   },
   {
     "revision": "1372084de157d0251fd61b9f3052c1be",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/trillo.b9cc2d6f.png"
   },
   {
-    "revision": "ada8ec26695c3fb965bcdfa53a002058",
-    "url": "/my-portfolio/static/media/breastfeeding.ada8ec26.png"
+    "revision": "dfdafff2a583ac9d7f0e0e6bdf9be02b",
+    "url": "/my-portfolio/static/media/astronomy2.dfdafff2.png"
   },
   {
     "revision": "8dc04bcddc1ee128393621e994aa53e9",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Gmail.8de2881e.svg"
   },
   {
-    "revision": "b36e927990b6b50d8187b118bb82981d",
+    "revision": "37e0404c81719485af227976e5146aec",
     "url": "/my-portfolio/index.html"
   }
 ];
