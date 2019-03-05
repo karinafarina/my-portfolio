@@ -9,7 +9,7 @@ $color-background-3: #002952;
 $color-background-4: rgba(171, 181, 203, 1);
 
 //FONTS
-$font-main: Oswald, serif;
+$font-main: ltc-bodoni-175, serif;
 
 //UNIVERSAL
 * {
@@ -21,6 +21,7 @@ $font-main: Oswald, serif;
 
 body {
   font-family: $font-main;
+  font-weight: 400;
   line-height: 1.4;
 }
 
