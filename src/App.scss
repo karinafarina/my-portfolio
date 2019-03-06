@@ -45,46 +45,52 @@ a {
 
 //HEADER
 .header {
-  height: 7vh;
+  height: 8vh;
   display: flex;
-  justify-content: space-between;
   background-color: $color-background-3;
   color: $color-text-secondary;
   text-transform: uppercase;
-  align-items: center;
-  @media only screen and (max-width: 1200px) {
-    font-size: 85%;
-  }
-  @media only screen and (max-width: 400px) {
-    justify-content: space-around;
-  }
 
-  .my-brand {
-    padding-left: 40px;
-    @media only screen and (max-width: 400px) {
-      padding-left: 0;
-    }
-  }
-
-  ul.nav {
+  .my-navbar {
+    width: 100%;
     display: flex;
-    width: 30%;
-    justify-content: space-around;
     cursor: pointer;
-
-    li {
-      list-style: none;
-      &:hover {
-        border-bottom: 2px solid $color-text-secondary;
-        color: rgb(144, 144, 159);
-        transition: border-bottom .2s;
+    @media only screen and (max-width: 1200px) {
+      font-size: 85%;
+      .my-brand {
+        font-size: 100%;
       }
     }
-    .resume a {
-      color: #fff!important;
-      text-decoration: none!important;
-      &:hover {
-        color: $color-background-4!important;
+    button {
+      border-color: #fff;
+      &:focus {
+        outline: none;
+      }
+    }
+    div.menu {
+      margin-right: 0!important;
+      margin-left: auto;
+      align-items: center;
+      cursor: pointer;
+      @media only screen and (max-width: 992px) {
+        width: 13vw;
+        background-color: $color-background-3;
+        cursor: pointer;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 16vw;
+      }
+      @media only screen and (max-width: 500px) {
+        width: 85vw;
+        height: 100vh;
+        margin-right: auto!important;
+        padding-top: 83px;
+      }
+    }
+    div.dropdown {
+      width: 100%;
+      .nav-link {
+        color: #fff;
       }
     }
   }
@@ -95,8 +101,9 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
   align-items: start;
-  height: 93vh;
+  height: 92vh;
   font-style: italic;
+  font-weight: bolder;
   font-size: 26px;
   color: $color-text-main;
 
@@ -180,7 +187,7 @@ a {
       font-size: 20px;
     }
   }
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 992px) {
     height: auto;
   }
 
@@ -243,7 +250,7 @@ a {
 
 //FOOTER
 .footer {
-  height: 7vh;
+  height: 8vh;
   background-color: $color-background-3;
   color: #fff;
   display: flex;
