@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Cloudsmp4 from './images/clouds3.mp4';
-import CloudsImage from './images/cloudsImage.jpg';
+import CloudsImage from './images/cloudsimage.png';
 import Header from './components/Header';
 import Main from './components/Main';
 import Showcase from './components/Showcase';
