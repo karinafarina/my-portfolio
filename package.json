@@ -4,6 +4,7 @@
   "homepage": "https://karinafarina.github.io/my-portfolio",
   "private": true,
   "dependencies": {
+    "body-scroll-lock": "^2.6.1",
     "bootstrap": "^4.3.1",
     "history": "^4.7.2",
     "node-sass": "^4.11.0",

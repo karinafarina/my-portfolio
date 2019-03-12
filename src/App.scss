@@ -112,7 +112,7 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
   align-items: start;
-  height: 92vh;
+  height: 83vh;
   font-style: italic;
   font-weight: bolder;
   font-size: 26px;
@@ -194,7 +194,7 @@ a {
   background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   @media only screen and (max-width: 1200px) {
-    height: 400px;
+    height: 8vh;
     .title {
       font-size: 20px;
     }
