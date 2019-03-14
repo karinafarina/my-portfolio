@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-// import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 
 class Header extends Component {
-//   app = null;
-//   menu = null;
-//
-// componentDidMount() {
-//   this.app = document.querySelector('.App');
-//   this.menu = document.querySelector('.menu');
-// }
-//
-// showTargetElement = () => {
-//   if(this.menu) {
-//     disableBodyScroll(this.app);
-//   }
-// }
+  app = null;
+  menu = null;
+
+componentDidMount() {
+  this.app = document.querySelector('.App');
+  this.menu = document.querySelector('.menu');
+}
+
+showTargetElement = () => {
+  if(this.menu) {
+    disableBodyScroll(this.app);
+  }
+}
 
   render() {
     return (
