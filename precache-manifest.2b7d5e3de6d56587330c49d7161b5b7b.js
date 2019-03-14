@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/omnifood.1372084d.png"
   },
   {
-    "revision": "f59407c506efb39e135a",
+    "revision": "cc884266772b700fcda1",
     "url": "/my-portfolio/static/css/main.ee376158.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/js/runtime~main.d4d95a87.js"
   },
   {
-    "revision": "8f9300aa2e45d0cded36",
-    "url": "/my-portfolio/static/js/2.8f9300aa.chunk.js"
+    "revision": "5bf9524d20911ad0fec9",
+    "url": "/my-portfolio/static/js/2.5bf9524d.chunk.js"
   },
   {
     "revision": "e0ac7c05e9695d3329c06ecfddcdc294",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/cloudsimage.d5124c81.png"
   },
   {
-    "revision": "f59407c506efb39e135a",
-    "url": "/my-portfolio/static/js/main.f59407c5.chunk.js"
+    "revision": "cc884266772b700fcda1",
+    "url": "/my-portfolio/static/js/main.cc884266.chunk.js"
   },
   {
     "revision": "cb4536b5974876c2a290a8a4dee16ac0",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/trillo.b9cc2d6f.png"
   },
   {
-    "revision": "dfdafff2a583ac9d7f0e0e6bdf9be02b",
-    "url": "/my-portfolio/static/media/astronomy2.dfdafff2.png"
+    "revision": "d17d942c3533450f6fac4a7220db8cea",
+    "url": "/my-portfolio/static/media/redrocksDrums.d17d942c.png"
   },
   {
     "revision": "8dc04bcddc1ee128393621e994aa53e9",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Gmail.8de2881e.svg"
   },
   {
-    "revision": "526973a88276b6040d609c2b8f04c2cd",
+    "revision": "12f02009cf54810731c7f4a6139d570c",
     "url": "/my-portfolio/index.html"
   }
 ];
