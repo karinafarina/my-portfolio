@@ -98,7 +98,9 @@ a {
       z-index: 10;
       height: 100%;
       .nav-link {
+        margin-right: 25px;
         color: #fff;
+        transition: all .5s;
         &:hover {
           color: $color-background-4;
         }
@@ -288,8 +290,10 @@ a {
       width: 40%;
       background-color: #fff;
       border-radius: 3px;
+      transition: all .4s;
       &:hover {
         background-color: $color-background-4;
+        transform: scale(1.2);
       }
     }
   }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Omnifood from "../images/omnifood.png";
 import Nexter from "../images/nexter.png";
 import Trillo from "../images/trillo.png";
-import Astronomy from "../images/astronomy2.png"
+import Redrocks from "../images/redrocksDrums.png"
 //import { Link } from 'react-router';
 
 class Showcase extends Component {
@@ -23,7 +23,7 @@ class Showcase extends Component {
             </a>
           </div>
           <div className="project project-3">
-            <a href="https://karinafarina.github.io/Astronomy-Aleworks/"><img src={Astronomy} alt="Astronomy Aleworks"/></a>
+            <a href="https://karinafarina.github.io/javascript-drum-kit/"><img src={Redrocks} alt="Redrocks with drums"/></a>
           </div>
           <div className="project project-4">
             <a href="https://karinafarina.github.io/Flexbox/">
