@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/omnifood.1372084d.png"
   },
   {
-    "revision": "cc884266772b700fcda1",
-    "url": "/my-portfolio/static/css/main.ee376158.chunk.css"
+    "revision": "d5733436b338d5ab0b20",
+    "url": "/my-portfolio/static/css/main.bf7bf51c.chunk.css"
   },
   {
     "revision": "d4d95a87c7a02a69aacb",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/cloudsimage.d5124c81.png"
   },
   {
-    "revision": "cc884266772b700fcda1",
-    "url": "/my-portfolio/static/js/main.cc884266.chunk.js"
+    "revision": "d5733436b338d5ab0b20",
+    "url": "/my-portfolio/static/js/main.d5733436.chunk.js"
   },
   {
     "revision": "cb4536b5974876c2a290a8a4dee16ac0",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Gmail.8de2881e.svg"
   },
   {
-    "revision": "12f02009cf54810731c7f4a6139d570c",
+    "revision": "dd4dcb4868dfaf7c1833bf8b71dc7c46",
     "url": "/my-portfolio/index.html"
   }
 ];
