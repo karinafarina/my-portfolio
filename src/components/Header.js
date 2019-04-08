@@ -19,7 +19,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <Navbar fixed="top" className="my-navbar" variant="dark" expand="lg">
+        <Navbar collapseOnSelect fixed="top" className="my-navbar" variant="dark" expand="lg">
           <Navbar.Brand className="my-brand" href="#home">Karina Gaulin</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="dropdown" id="basic-navbar-nav">
