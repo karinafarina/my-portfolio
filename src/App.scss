@@ -58,6 +58,7 @@ a {
     width: 100%;
     display: flex;
     cursor: pointer;
+    background-color: $color-background-3;
     @media only screen and (max-width: 1200px) {
       font-size: 85%;
       .my-brand {
@@ -337,4 +338,8 @@ a {
       }
     }
   }
+}
+
+.block-body-scroll {
+  overflow: hidden;
 }
